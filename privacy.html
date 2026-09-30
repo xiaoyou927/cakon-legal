@@ -5,26 +5,117 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cakon Privacy Policy</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; padding: 24px; color: #143028; background: #E8F0EA; line-height: 1.55; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; padding: 24px; color: #143028; background: #E8F0EA; line-height: 1.6; }
     h1, h2 { color: #1F6A4A; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.4rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.6rem; }
+    p, li { font-size: 0.98rem; }
+    ul { padding-left: 1.2rem; }
     a { color: #1F6A4A; }
+    .meta { color: #3d5a4e; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p>Cakon is a daily video memory app. This Privacy Policy explains what information the app handles and how it is used.</p>
-  <h2>Information You Create</h2>
-  <p>Videos, notes, and composed films you create are stored on your device. Cakon does not upload your personal media to Cakon servers as part of the core timeline experience.</p>
-  <h2>Permissions</h2>
-  <p>Camera and microphone access are used only when you record a moment. Photo library access is used to choose videos or save finished films. App Tracking Transparency and notification prompts may appear once for promotional measurement readiness; Cakon does not use targeted advertising identifiers or send push notifications in the current product flow.</p>
-  <h2>Voice Feedback and Speech Processing</h2>
-  <p>Data category: microphone audio and the transcribed text of optional Voice Feedback notes.</p>
-  <p>Recipient: Apple operates as a third party speech recognition provider for optional Voice Feedback transcription on iOS.</p>
-  <p>Purpose: convert spoken feedback into editable text notes that remain stored locally in Cakon.</p>
-  <p>Consent: before sending audio for transcription, Voice Feedback shows an Allow confirmation. If you decline, no audio is shared and you can type a note instead.</p>
-  <h2>Purchases</h2>
-  <p>Memory Credits are consumable in-app purchases processed by Apple. Purchase receipts are validated through StoreKit on device. Transaction identifiers may be stored locally to keep credit grants idempotent.</p>
-  <h2>Contact</h2>
-  <p>Questions about privacy can be sent through the App Store support channel listed for Cakon.</p>
+  <p class="meta">Last updated: September 30, 2026</p>
+  <p>This Privacy Policy describes how the Cakon iOS application (“Cakon”, “we”, “us”) handles information when you use the app. Cakon is a personal daily video memory tool: you can record or import short moments, organize them on a Timeline, compose letterboxed Month Films, manage optional Memory Credits, and leave optional Voice Feedback notes.</p>
+  <p>Please read this Policy together with the Terms of Use. By using Cakon you acknowledge this Policy.</p>
+
+  <h2>1. Scope and Summary</h2>
+  <p>Cakon is designed so that your Timeline media, notes, and finished films stay on your iPhone. The core experience does not upload your personal videos or films to a Cakon backend server. Certain optional system features (for example Apple speech recognition for Voice Feedback, or App Store purchase processing) are operated by Apple under Apple’s own terms and privacy disclosures.</p>
+  <p>This Policy covers:</p>
+  <ul>
+    <li>Information you create or import in Cakon</li>
+    <li>Information stored locally for app operation (settings, credits, purchase transaction ids)</li>
+    <li>Device permissions and why they are requested</li>
+    <li>Optional Voice Feedback and speech processing</li>
+    <li>In-app purchases through Apple</li>
+    <li>What we do not do with your data</li>
+    <li>Retention, deletion, children, changes, and contact</li>
+  </ul>
+
+  <h2>2. Information You Create or Import</h2>
+  <p>Depending on how you use Cakon, the following may be stored on your device:</p>
+  <ul>
+    <li><strong>Video moments</strong> — clips you record with the camera and microphone, or videos you choose from your photo library</li>
+    <li><strong>Notes and titles</strong> — optional text you attach to moments or films</li>
+    <li><strong>Composed films</strong> — letterboxed Month Films you create from selected clips</li>
+    <li><strong>Voice Feedback notes</strong> — optional typed or transcribed text stored locally in Settings → Voice Feedback</li>
+    <li><strong>Demo or sample clips</strong> — if shown on first launch so you can explore the Timeline; they remain on device for demonstration</li>
+  </ul>
+  <p>You control this content. Cakon does not operate a cloud account system for syncing Timeline or Films media to Cakon servers. If you Share or Save a film, the destination is the iOS share sheet or your Photos library under your control.</p>
+
+  <h2>3. Information Stored for App Operation</h2>
+  <p>To keep the app working, Cakon may store the following locally on your device (for example via the app container and UserDefaults):</p>
+  <ul>
+    <li>Onboarding / welcome completion state</li>
+    <li>Memory Credit balance and related purchase bookkeeping</li>
+    <li>Apple StoreKit transaction identifiers used only to keep credit grants idempotent (avoid double-granting the same purchase)</li>
+    <li>The latest optional Voice Feedback note text</li>
+    <li>Other preference or storage housekeeping flags needed for local features</li>
+  </ul>
+  <p>These items are not sold. They are not used to build advertising profiles.</p>
+
+  <h2>4. Permissions</h2>
+  <p>iOS will ask for permission before Cakon accesses certain hardware or system features. Cakon requests access only for the stated purpose:</p>
+  <ul>
+    <li><strong>Camera</strong> — to record daily video moments</li>
+    <li><strong>Microphone</strong> — to capture live audio with recorded moments, and for optional Voice Feedback recording</li>
+    <li><strong>Photo Library (read)</strong> — to choose existing videos for the Timeline or Month Film composition</li>
+    <li><strong>Photo Library (add)</strong> — to save finished films to Photos when you choose Save</li>
+    <li><strong>Speech Recognition</strong> — only for optional Voice Feedback transcription after you allow it</li>
+    <li><strong>App Tracking Transparency</strong> — may be shown once after you enter the Timeline, for promotional measurement readiness. Cakon does not use advertising identifiers for targeted advertising in the current product flow</li>
+    <li><strong>Notifications</strong> — authorization may be requested once after the tracking prompt returns. The current product flow does not deliver remote push notification content</li>
+  </ul>
+  <p>You can change permissions later in iOS Settings. If you deny a permission, related features may be unavailable until you grant access.</p>
+
+  <h2>5. Voice Feedback and Speech Processing</h2>
+  <p><strong>What is collected for this feature:</strong> microphone audio while you speak, and the transcribed text result if transcription succeeds.</p>
+  <p><strong>Who processes the audio:</strong> Apple provides on-device or Apple speech recognition services for iOS speech APIs. Apple acts as the speech recognition provider for this optional feature.</p>
+  <p><strong>Purpose:</strong> convert spoken feedback into editable text that you can save as a local note in Cakon.</p>
+  <p><strong>Consent:</strong> before audio is sent for transcription, Voice Feedback shows an Allow confirmation. If you decline, no audio is shared for transcription and you can type a note instead.</p>
+  <p><strong>Storage:</strong> the saved note text remains on your device. Cakon does not upload Voice Feedback notes to a Cakon server.</p>
+
+  <h2>6. Purchases and Apple Services</h2>
+  <p>Memory Credits are consumable in-app purchases. Payment is processed by Apple through StoreKit / the App Store. Apple may process purchase-related information under Apple’s privacy policy and App Store terms.</p>
+  <p>Cakon validates purchases on device and may store transaction identifiers locally so credit grants remain idempotent. Cakon does not receive your full payment card details.</p>
+
+  <h2>7. What We Do Not Do</h2>
+  <ul>
+    <li>We do not require you to create a Cakon cloud account to use Timeline and Films</li>
+    <li>We do not upload core Timeline / Films media to a Cakon backend as part of normal use</li>
+    <li>We do not sell your personal information</li>
+    <li>We do not use your media to train third-party generative model APIs</li>
+    <li>We do not create biometric face templates or run face matching on your photos or videos. Faces may appear only as ordinary content inside media you choose to record or import</li>
+  </ul>
+
+  <h2>8. Sharing and Third Parties</h2>
+  <p>Aside from Apple system services you choose to use (speech recognition, App Store billing, iOS share destinations, Photos), Cakon does not share your Timeline media with third-party analytics or advertising SDKs as part of the core product described here.</p>
+  <p>If you use Share, you choose the destination app or service. That destination’s privacy practices apply to what you send.</p>
+
+  <h2>9. Retention and Deletion</h2>
+  <p>Local media and notes remain until you delete them in the app, use Settings → Delete All Data, or remove Cakon from your device.</p>
+  <ul>
+    <li><strong>Logout</strong> (if available in Settings) returns you to the welcome experience; media may remain on device as designed</li>
+    <li><strong>Delete All Data</strong> wipes local app data associated with Cakon and returns you to welcome</li>
+  </ul>
+  <p>Uninstalling the app removes the app sandbox data on that device, subject to iOS behavior and any copies you previously saved to Photos or shared elsewhere.</p>
+
+  <h2>10. Security</h2>
+  <p>We rely on iOS app sandboxing and standard device protections. No method of electronic storage is perfectly secure. Please keep your device locked and updated. You are responsible for backups you make with iOS or other tools you control.</p>
+
+  <h2>11. Children</h2>
+  <p>Cakon is not directed at children under 13 (or the minimum age required in your jurisdiction). Do not use the app if you are under that age. We do not knowingly collect personal information from children under that age.</p>
+
+  <h2>12. International Users</h2>
+  <p>Cakon is distributed through the App Store. Processing by Apple may occur in locations where Apple operates. Local device storage remains on your iPhone.</p>
+
+  <h2>13. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy. The “Last updated” date will change when a revision is published. The current version is available in the app (opened in an in-app browser) and at:</p>
+  <p><a href="https://xiaoyou927.github.io/cakon-legal/privacy.html">https://xiaoyou927.github.io/cakon-legal/privacy.html</a></p>
+  <p>Continued use after an update means you acknowledge the revised Policy.</p>
+
+  <h2>14. Contact</h2>
+  <p>Privacy questions can be sent through the App Store product page support channel listed for Cakon.</p>
 </body>
 </html>
